@@ -23,6 +23,9 @@ module.exports = {
     "space-before-function-paren": ["error", "never"],
     "operator-linebreak": ["error", "after"],
     "eol-last": 0,
+    "comma-dangle": 0,
+    "quotes": 0,
+    "semi": 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
